@@ -38,7 +38,7 @@ function saved(){
 function sendTaskToServer(input_text){
     const data = {text: input_text}
 
-    fetch('https://my-todo-list.onrender.com/api/tasks', {
+    fetch('https://to-do-list-ku1l.onrender.com/api/tasks', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -51,7 +51,7 @@ function sendTaskToServer(input_text){
 function patchTaskOnServer(id, state){
     const data = {id: id, state: state}
 
-    fetch('https://my-todo-list.onrender.com/api/tasks', {
+    fetch('https://to-do-list-ku1l.onrender.com/api/tasks', {
         method: 'PATCH',
         headers: {
             'Content-Type': 'application/json'
@@ -64,7 +64,7 @@ function patchTaskOnServer(id, state){
 function deleteTaskOnServer(id){
     const data = {id: id}
 
-    fetch('https://my-todo-list.onrender.com/api/tasks', {
+    fetch('https://to-do-list-ku1l.onrender.com/api/tasks', {
         method: 'DELETE',
         headers: {
             'Content-Type': 'application/json'
@@ -75,7 +75,7 @@ function deleteTaskOnServer(id){
 }
 
 function saveTasks(){
-    fetch('https://my-todo-list.onrender.com/api/save', {
+    fetch('https://to-do-list-ku1l.onrender.com/api/save', {
         method: 'PATCH',
         headers: {
             'Content-Type': 'application/json'
@@ -86,7 +86,7 @@ function saveTasks(){
 }
 
 async function savedTasksStata(){
-    let response = await fetch('https://my-todo-list.onrender.com/api/save', {
+    let response = await fetch('https://to-do-list-ku1l.onrender.com/api/save', {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json'
@@ -186,7 +186,7 @@ function createOnDid(id, text){
 }
 
 async function loadData(){
-    let response = await fetch('https://my-todo-list.onrender.com/api/tasks', {
+    let response = await fetch('https://to-do-list-ku1l.onrender.com/api/tasks', {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json'
