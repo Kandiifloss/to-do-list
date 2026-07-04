@@ -1,0 +1,17 @@
+28
+{"id": "task4", "text": "Сделать дизайн", "state": "planing"}
+{"id": "task6", "text": "Разобраться что такое CORS", "state": "planing"}
+{"id": "task7", "text": "Скачать документацию HTML CSS JS на ноут", "state": "planing"}
+{"id": "task8", "text": "Разобраться с pydentic", "state": "planing"}
+{"id": "task9", "text": "Разобраться с fastapi", "state": "planing"}
+{"id": "task15", "text": "Избавиться от XSS уязвимости", "state": "planing"}
+{"id": "task17", "text": "Скачать документацию fastapi на ноут", "state": "planing"}
+{"id": "task18", "text": "Посмотреть как сделать Drag and drop и добавить", "state": "planing"}
+{"id": "task19", "text": "Добавить возможность редактировать текст задачи", "state": "planing"}
+{"id": "task20", "text": "Придумать дизайн", "state": "planing"}
+{"id": "task21", "text": "Подключить БД вместо текстового файла", "state": "planing"}
+{"id": "task22", "text": "Добавить сложность задачи в звездах например", "state": "planing"}
+{"id": "task23", "text": "Сделать нормальную архитектуру", "state": "planing"}
+{"id": "task24", "text": "Геймификация туду листа", "state": "planing"}
+{"id": "task26", "text": "Группировка задач, категориями", "state": "planing"}
+{"id": "task27", "text": "Возможность запускать сервер через исполняемый файл", "state": "did"}

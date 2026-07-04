@@ -13,7 +13,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-data_base = open("bd.txt","r")
+data_base = open("db.txt","r", encoding="utf-8")
 data_saved = True
 idCounter = int(data_base.readline())
 
@@ -98,7 +98,7 @@ def delete(data: TaskDelete):
 @app.patch("/api/save")
 def save():
     global data_saved
-    with open("C:/Users/Бог/Desktop/Python/todo/bd.txt","w") as f:
+    with open("db.txt","w", encoding="utf-8") as f:
         f.write(str(idCounter) + "\n")
         for i in tasks:
             # json.loads почему-то не любит одинарные ковычки, приходится костылями менять
