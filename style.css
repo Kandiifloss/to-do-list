@@ -1,0 +1,43 @@
+body{
+    font-size: 20px;
+}
+
+ol {
+    list-style-type: none;
+}
+
+header{
+    text-align: center;
+    align-content: center;
+    background-color: brown;
+    height: 50px;
+}
+
+section {
+    text-align: center;
+}
+
+#adder{
+    text-align: center;
+    margin: 30px;
+}
+
+.tasks_section {
+    width: 100%;
+}
+
+.tasks {
+    display: flex;
+    justify-content:space-between;
+}
+
+button {
+    background-color: white;
+    border: 0, none;
+}
+
+#board {
+    display: flex;
+    justify-content:left;
+}
+
