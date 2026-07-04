@@ -13,7 +13,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-data_base = open("C:/Users/Бог/Desktop/Python/todo/bd.txt","r")
+data_base = open("bd.txt","r")
 data_saved = True
 idCounter = int(data_base.readline())
 
